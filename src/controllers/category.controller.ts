@@ -1,5 +1,3 @@
- // * Add new category
- // * see existing categories
 import express,{type Request, type Response} from "express"
 import Catagories from "../models/catagory.model"
 
@@ -23,6 +21,5 @@ export const addNewCategory = async (req:Request,res:Response) => {
 
 export const seeExistingCategories = async (req:Request,res:Response) => {
   const response = await Catagories.find({})
-  console.log("we reach here")
   res.json(response)
 }
