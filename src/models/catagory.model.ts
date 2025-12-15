@@ -19,3 +19,14 @@ const categorySchema = new mongoose.Schema({
 
 const Catagories = mongoose.model("Catagory",categorySchema)
 export default Catagories;
+
+/* Categories document
+
+{
+  "_id": "65fa1...",
+  "name": "Electronics",
+  "description": "Electronic devices",
+  "createdAt": "...",
+  "updatedAt": "..."
+}
+*/
