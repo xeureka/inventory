@@ -30,15 +30,3 @@ const productSchema = new mongoose.Schema({
 const Products = mongoose.model("Product",productSchema)
 export default Products
 
-/*product document looks like
-{
-  "_id": "65fa9...",
-  "name": "Laptop",
-  "price": 1200,
-  "quantity": 10,
-  "category": "65fa1...",
-  "description": "Dell XPS",
-  "createdAt": "...",
-  "updatedAt": "..."
-}
-*/
