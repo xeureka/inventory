@@ -1,16 +1,8 @@
 
-// Product (name,description,number of item,added date,category reference)
-// Category (name,description)
+/**
+ * 1. end point for seelling and refilling of items
+ */
 
-
-//End Points for category
-
-// create category
-// delete category
-// update category
-
-
-// End Points for produts
-// create product
-// update category
-// delete cateogry
+// what are the things that are no compatible with my workign righer here man
+// how to work with those things configure them and get done with what the offer man
+// 
