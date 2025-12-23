@@ -1,6 +1,7 @@
 import express from "express"
 import cors from "cors"
 import connectdb from "./config/db"
+import categoryRoute from "./routes/category.route"
 
 const app = express()
 
@@ -16,6 +17,8 @@ app.get("/health",(req:express.Request,res:express.Response) => {
         return res.status(500).json('Server not working')
     }
 })
+
+app.use("/api/category",categoryRoute)
 
 const PORT = process.env.PORT || 3000
 
