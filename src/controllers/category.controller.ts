@@ -16,7 +16,7 @@ export const addCateogry = async (req:Request,res:Response) => {
     const categoryInput = req.body;
     try {
         const newCateogry = await Categories.create(categoryInput);
-        res.status(201).json(categoryInput)
+        res.status(201).json(newCateogry)
     } catch (error) {
         console.log(error)
         return res.json(error).status(500)
